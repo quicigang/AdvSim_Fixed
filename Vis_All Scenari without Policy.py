@@ -3,14 +3,10 @@ import matplotlib.pyplot as plt
 
 # List of CSV files with their respective scenario names
 files = {
-    "Data/All_Scenario_Policy/BAU - policy - curved utility function.csv": "BAU - Curved Utility",
-    "Data/All_Scenario_Policy/BAU - policy - piecewise binary function.csv": "BAU - Piecewise Binary",
-    #"Data/All_Scenario_Policy/Paris agreement - policy - curved utility function.csv": "Paris Agreement - Curved Utility",
-    #"Data/All_Scenario_Policy/Paris agreement - policy - piecewise binary function.csv": "Paris Agreement - Piecewise Binary",
-    #"Data/All_Scenario_Policy/Slow energy transition - policy - curved utility function.csv": "Slow Energy Transition - Curved Utility",
-    #"Data/All_Scenario_Policy/Slow energy transition - policy - piecewise binary function.csv": "Slow Energy Transition - Piecewise Binary",
-    #"Data/All_Scenario_Policy/Stated Policy Scenario - policy - curved utility function.csv": "Stated Policy Scenario - Curved Utility",
-    #"Data/All_Scenario_Policy/Stated Policy Scenario - policy - piecewise binary function.csv": "Stated Policy Scenario - Piecewise Binary"
+    "Data/No_Policy/BAU - without_policy.csv": "BAU",
+    #"Data/No_Policy/Paris aggreement - without_policy.csv": "Paris Agreement",
+    #"Data/No_Policy/Stated policy scenario - without_policy.csv": "Stated policy scenario",
+    #"Data/No_Policy/Slow energy transition t- without_policy.csv": "Slow Energy Transition",
 }
 
 # Dictionary to store scenario data
